@@ -59,11 +59,11 @@ func _input(event):
 
 	if movement:
 		if event.is_action_pressed(forward_action):
-			_direction.z = -1
+			_direction.y = -1
 		elif event.is_action_pressed(backward_action):
-			_direction.z = 1
+			_direction.y = 1
 		elif not Input.is_action_pressed(forward_action) and not Input.is_action_pressed(backward_action):
-			_direction.z = 0
+			_direction.y = 0
 
 		if event.is_action_pressed(left_action):
 			_direction.x = -1
