@@ -120,6 +120,7 @@ _sections_unfolded = [ "Geometry" ]
 
 [node name="ImmediateGeometry" type="ImmediateGeometry" parent="." index="2"]
 
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 13.6122 )
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -130,5 +131,6 @@ lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
 script = ExtResource( 5 )
+_sections_unfolded = [ "Transform" ]
 
 
